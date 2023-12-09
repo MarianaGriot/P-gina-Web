@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh; /* Ajusta la altura del body al 100% del viewport */
+    background-image: url('fondo.jpg');width: 100%; height: 100%; object-fit: cover;/* Ruta o URL de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-blend-mode: darken;
+}
+
+p {
+    font: bold 20px Arial, sans-serif;
+    line-height: 2.5;
+    color: #ecebeb;
+  }
+ 
+  h1 {
+    font: bold 24px Arial, sans-serif; /* Puedes ajustar el tamaño y la fuente según tus preferencias */
+    color: #ecebeb;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(92, 88, 88, 0.541);
+}
+  
+.content {
+    flex: 1;
+    padding: 20px;
+    /* Otros estilos para el contenido de la página */
+}
+
+nav {
+    background-color: #333;
+    height: 0px; 
+    font-size: 26px;
+    display: flex;
+    align-items: center
+
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+
+.facebook-logo {
+    width: 30px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    margin-right: 5px; /* Espacio entre el logotipo y el texto */
+}
+
+.instagram-logo {
+    width: 30px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    margin-right: 5px; /* Espacio entre el logotipo y el texto */
+}
+content {
+    flex: 1;
+    /* Otros estilos para el contenido de la página */
+}
+
+
+.gallery {
+  
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+img {
+    
+    flex: 1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+ 
+
+/* Estilo para el contenedor del pie de página */
+.footer-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con transparencia */
+    color: rgb(0, 0, 0); /* Color del texto en el pie de página */
+    padding: 20px; /* Espaciado interno para el contenido del pie de página */
+  }
+  
+  /* Estilo para los enlaces dentro del pie de página */
+  .footer-container a {
+    color: rgb(0, 0, 0); /* Color de los enlaces */
+  }
+  
+  /* Estilo para el texto del pie de página */
+  .footer-container p {
+    margin: 0; /* Elimina el margen predeterminado para el texto del pie de página */
+  }
+  
